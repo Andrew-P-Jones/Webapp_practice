@@ -4,10 +4,67 @@
     <title>Stock Prediction</title>
     <!-- Load static files -->
     {% load static %}
-    <link rel="stylesheet" type="text/css" href="{% static 'django\stockpredictor\predictions\static\predictions\style.css' %}">
+    <!-- <link rel="stylesheet" type="text/css" href="{% static 'django\stockpredictor\predictions\static\predictions\style.css' %}"> -->
+    <style>
+        /* General Page Styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #9296ac; /* Light grey background */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #989494; /* Off-white header */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Small shadow for a subtle effect */
+  }
+  
+  header h1 {
+    margin: 20px auto;
+    color: #333; /* Dark grey text */
+  }
+  
+  /* Content Styling */
+  .container {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #555; /* Slightly lighter grey for subheadings */
+  }
+  
+  p {
+    color: #666; /* Slightly lighter grey for paragraphs */
+    line-height: 1.6;
+  }
+  .main_div {
+    background-color: #fff; /* White background */
+    margin: 20px auto; /* Center the div */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Small shadow for a subtle effect */
+    max-width: 600px; /* Limit the width of the div */
+  }
+    </style>
 </head>
 <body>
-    <h1>Welcome to the Stock Prediction App!</h1>
-    <p>This app was made using django</p>
+    <header>
+        <h1>Welcome to the Stock Prediction App</h1>
+    </header>
+
+    <div class="main_div">
+        <h3>This is a sub-title</h3>
+        <p>This app was made using django</p>
+
+        <button type="button" onclick="add()">Click Me, I'm a button!</button>
+
+        <form method="get" action="{% url 'new' %}">
+            <button type="new_page">Go to signin page</button>
+        </form> 
+    </div>
+
 </body>
 </html>

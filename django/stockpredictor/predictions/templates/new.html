@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new</title>
+</head>
+<body>
+
+    <h1>New User</h1>
+    <p>This is the new user signin page</p>
+
+    
+    <form method="post" action="{% url 'new' %}">
+        {% csrf_token %}
+        {{ form.as_p }}  <!-- Renders the form fields as <p> elements -->
+        
+        <button type="submit">Submit</button>
+    </form>    
+
+    <!-- Conditionally display submission result if available -->
+    {% if name and last_name %}
+        <h1>Form Submission Successful!</h1>
+        <p>Thank you {{ name }} {{ last_name }} for signing up</p>
+    {% endif %}
+
+
+    <a href="{% url 'home' %}">
+        <button type="button">Back to Home</button>
+    </a>
+</body>
+</html>
