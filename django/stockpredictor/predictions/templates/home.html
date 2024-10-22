@@ -10,7 +10,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #9296ac; /* Light grey background */
+    background-color: 'white'; /* Light grey background */
     font-family: Arial, sans-serif;
   }
   
@@ -58,9 +58,9 @@ body {
     <div class="main_div">
         <h3>This is a sub-title</h3>
         <p>This app was made using django</p>
-
-        <button type="button" onclick="add()">Click Me, I'm a button!</button>
-
+        <p>Sadly this first button doesn't do much</p>
+        <button id="changeColorBtn">Click Me, I'm a button!</button>
+        <p id="jktext"></p>
         <form method="get" action="{% url 'new' %}">
             <button type="new_page">Go to signin page</button>
         </form> 
@@ -68,3 +68,12 @@ body {
 
 </body>
 </html>
+<script>
+  // JavaScript to change the CSS
+  document.getElementById('changeColorBtn').addEventListener('click', function() {
+      const body = document.getElementById('body');
+      element.style.backgroundColor = body.style.backgroundColor === 'white' ? 'gray' : 'white';
+      const text = document.getElementById('jktext');
+      text.innerHTML = 'Just Kidding! This changes the background color';
+  });
+</script>
