@@ -26,14 +26,20 @@ The expected minimum amount of time each Sprint for each category is as follows:
 
 |Date      |Start Time|Category|Description                                 |Total Minutes|
 |----------|----------|:------:|--------------------------------------------|:-----------:|
+| 10/21    |  2:00    | MTG    |  Planning                                  | 60          |
+| 10/23    |  2:00    | TP     |  Team planning                             | 60          |
+| 10/24    |  1:00    | TP     |  Working on Lobby creation with bryson     | 90          |
+| 10/25    |  2:00    | MTG    |  Stand-Up                                  | 60          |
+| 10/28    |  2:00    | TP     |  Team work day                             | 60          |
+| 10/29    |  8:00    | IM     |  Working on Flask setup and reading API    |             |
 |          |          |        |                                            |             |
 |          |          |        |                                            |             |
 |          |          |        |                                            |             |
 |          |          |        |                                            |             |
 |          |          |        |                                            |             |
 |          |          |        |                                            |             |
-
-_Note: Add more rows as needed._
+|          |          |        |                                            |             |
+|          |          |        |                                            |             |
 
 ## Sprint Totals
 

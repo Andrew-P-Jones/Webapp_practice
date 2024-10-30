@@ -1,10 +1,16 @@
 ## Overview
 
-**Project Title**:
+**Project Title**: Data Analysis with Flask
 
-**Project Description**:
+**Project Description**: Using Lets-plot and Flask to create a web application that allows see trends in stock data.
 
-**Project Goals**:
+**Project Goals**: Learn more about using APIs, data analysis, and potentially machine learning.
+*The class requirements*
+1. Find or create a dataset that interests you.
+2. Use software to analyze and answer two questions about the data.
+3. Software analysis should include a filter.
+4. Software analysis should include a sort.
+5. Software analysis should include an aggregation.
 
 ## Instructions for Build and Use
 
