@@ -31,11 +31,11 @@ The expected minimum amount of time each Sprint for each category is as follows:
 | 10/24    |  1:00    | TP     |  Working on Lobby creation with bryson     | 90          |
 | 10/25    |  2:00    | MTG    |  Stand-Up                                  | 60          |
 | 10/28    |  2:00    | TP     |  Team work day                             | 60          |
-| 10/29    |  8:00    | IM     |  Working on Flask setup and reading API    |             |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
+| 10/29    |  8:00    | IM     |  Working on Flask setup and reading API    | 75          |
+| 10/30    |  9:00    | IM     |  Getting a test csv from alpha vantage     | 15          |
+| 10/30    |  2:00    | MTG    |  Team Review                               | 60          |
+| 10/30    |  8:00    | IM     |  Working on plotting the data              | 60          |
+| 10/31    |  12:00   | IM     |  Trying to get plot to save to html        | 60          |
 |          |          |        |                                            |             |
 |          |          |        |                                            |             |
 |          |          |        |                                            |             |
@@ -43,7 +43,7 @@ The expected minimum amount of time each Sprint for each category is as follows:
 
 ## Sprint Totals
 
-|Categroy                       |Total Time (Hours:Minutes)|
+|Category                       |Total Time (Hours:Minutes)|
 |-------------------------------|:------------------------:|
 |IM - Individual Module         |                          |
 |TP - Team Project              |                          |
