@@ -16,36 +16,34 @@
 
 Steps to build and/or run the software:
 
-1. First step here
-2.
-3.
+1. install the required libraries by running the command `pip install flask lets-plot pandas`
+2. open the flask directory in the terminal and run the command `flask run`
+3. open a web browser and go to the address `http://http://127.0.0.1:5000/`
 
 Instructions for using the software:
 
-1. First step here
-2.
-3.
+1. Open the web application
+2. Click on the buttons and see the data analysis
 
 ## Development Environment 
 
 To recreate the development environment, you need the following software and/or libraries with the specified versions:
 
-* First thing here
-*
-*
+* I used flask, pandas, and lets-plot libraries
+* The application was developed in Python 3.12.6
 
 ## Useful Websites to Learn More
 
 I found these websites useful in developing this software:
 
-* [Website Title](Link)
-*
-*
+* [Pandas Docs](https://pandas.pydata.org/docs/)
+* [Lets Plot Guide](https://aeturrell.github.io/python4DS/data-visualise.html)
 
 ## Future Work
 
 The following items I plan to fix, improve, and/or add to this project in the future:
 
-* [ ] First thing here
-* [ ]
-* [ ]
+* [ ] use machine learning to predict future stock prices
+* [ ] Finsih the css
+* [ ] Add more data analysis features
+* [ ] Add more data to the dataset and use a SQLite database to store it

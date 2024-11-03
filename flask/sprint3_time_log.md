@@ -41,15 +41,15 @@ The expected minimum amount of time each Sprint for each category is as follows:
 | 11/1     |  2:00    | MTG    | Individual Review                          | 60          |
 | 11/2     |  1:00    | IM     | Answering questions 1-3 and working on making the web app display all the results| 180 |
 | 11/2     |  8:20    | IM     | Fixing the table filter and the min max get functions |  60  |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
+| 11/2     |  9:30    | TP     | Working on the lobby creation functions    | 45          |
+| 11/2     |  10:15   | IM     | Read me and final touches                  | 15          |
 |          |          |        |                                            |             |
 
 ## Sprint Totals
 
 |Category                       |Total Time (Hours:Minutes)|
 |-------------------------------|:------------------------:|
-|IM - Individual Module         |     10:00                |
-|TP - Team Project              |     3:30                 |
+|IM - Individual Module         |     10:15                |
+|TP - Team Project              |     4:15                 |
 |MTG - Class Meetings           |     4:00                 |
 |**TOTAL**                      |                          |
