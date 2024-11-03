@@ -36,7 +36,11 @@ The expected minimum amount of time each Sprint for each category is as follows:
 | 10/30    |  2:00    | MTG    |  Team Review                               | 60          |
 | 10/30    |  8:00    | IM     |  Working on plotting the data              | 60          |
 | 10/31    |  12:00   | IM     |  Trying to get plot to save to html        | 60          |
-|          |          |        |                                            |             |
+| 11/1     |  10:00   | IM     |  Researching SciKitLearn                   | 60          |
+| 11/1     |  12:30   | IM     |  Getting the table to display in the html and a table. Working on the css a tiny bit. Also doing a bit more to complete the project reqs. like a filter and agg function. | 90  |
+| 11/1     |  2:00    | MTG    | Individual Review                          | 60          |
+| 11/2     |  1:00    | IM     | Answering questions 1-3 and working on making the web app display all the results| 180 |
+| 11/2     |  8:20    | IM     | Fixing the table filter and the min max get functions |  60  |
 |          |          |        |                                            |             |
 |          |          |        |                                            |             |
 |          |          |        |                                            |             |
@@ -45,7 +49,7 @@ The expected minimum amount of time each Sprint for each category is as follows:
 
 |Category                       |Total Time (Hours:Minutes)|
 |-------------------------------|:------------------------:|
-|IM - Individual Module         |                          |
-|TP - Team Project              |                          |
-|MTG - Class Meetings           |                          |
+|IM - Individual Module         |     10:00                |
+|TP - Team Project              |     3:30                 |
+|MTG - Class Meetings           |     4:00                 |
 |**TOTAL**                      |                          |

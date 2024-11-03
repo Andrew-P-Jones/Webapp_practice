@@ -1,0 +1,81 @@
+            <iframe src='about:blank' style='border:none !important;' width='600' height='400' srcdoc="&lt;html lang=&quot;en&quot;>
+   &lt;head>
+       &lt;meta charset=&quot;UTF-8&quot;>
+       &lt;style> html, body { margin: 0; overflow: hidden; } &lt;/style>
+       &lt;script type=&quot;text/javascript&quot; data-lets-plot-script=&quot;library&quot; src=&quot;https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v4.5.1/js-package/distr/lets-plot.min.js&quot;>&lt;/script>
+   &lt;/head>
+   &lt;body>
+          &lt;div id=&quot;PPq47y&quot;>&lt;/div>
+   &lt;script type=&quot;text/javascript&quot; data-lets-plot-script=&quot;plot&quot;>
+   
+   (function() {
+   // ----------
+   
+       var plotSpec={
+&quot;data&quot;:{
+&quot;year&quot;:[1999.0,2000.0,2001.0,2002.0,2003.0,2004.0,2005.0,2006.0,2007.0,2008.0,2009.0,2010.0,2011.0,2012.0,2013.0,2014.0,2015.0,2016.0,2017.0,2018.0,2019.0,2020.0,2021.0,2022.0,2023.0,2024.0],
+&quot;high_low_diff&quot;:[8.4925,10.046346153846153,7.514807692307693,6.200384615384616,3.7765384615384625,2.782618867924528,2.981538461538461,2.481923076923077,4.452711538461539,7.274269230769232,5.249245283018867,4.558940384615383,7.2778923076923085,6.254473076923078,6.663982692307692,5.464019230769229,5.921583018867926,5.8034038461538415,4.244240384615383,6.495192307692307,5.096923076923075,8.093505660377357,5.699071153846153,6.9935269230769235,4.809580769230768,8.426038636363637]
+},
+&quot;mapping&quot;:{
+&quot;x&quot;:&quot;year&quot;,
+&quot;y&quot;:&quot;high_low_diff&quot;
+},
+&quot;data_meta&quot;:{
+&quot;series_annotations&quot;:[{
+&quot;type&quot;:&quot;int&quot;,
+&quot;column&quot;:&quot;year&quot;
+},{
+&quot;type&quot;:&quot;float&quot;,
+&quot;column&quot;:&quot;high_low_diff&quot;
+}]
+},
+&quot;ggtitle&quot;:{
+&quot;text&quot;:&quot;Average Weekly High-Low difference&quot;,
+&quot;subtitle&quot;:&quot;The most stable years being 2004-2006&quot;
+},
+&quot;guides&quot;:{
+&quot;x&quot;:{
+&quot;title&quot;:&quot;Year&quot;
+},
+&quot;y&quot;:{
+&quot;title&quot;:&quot;USD&quot;
+}
+},
+&quot;kind&quot;:&quot;plot&quot;,
+&quot;scales&quot;:[],
+&quot;layers&quot;:[{
+&quot;geom&quot;:&quot;line&quot;,
+&quot;mapping&quot;:{
+},
+&quot;data_meta&quot;:{
+},
+&quot;data&quot;:{
+}
+}],
+&quot;metainfo_list&quot;:[],
+&quot;spec_id&quot;:&quot;2&quot;
+};
+       var containerDiv = document.getElementById(&quot;PPq47y&quot;);
+       
+               var toolbar = null;
+               var plotContainer = containerDiv;               
+               
+       var options = {
+           sizing: {
+               width_mode: &quot;fixed&quot;,
+               height_mode: &quot;fixed&quot;,
+               width: 600.0,
+               height: 400.0
+           }
+       };
+       var fig = LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer, options);
+       if (toolbar) {
+         toolbar.bind(fig);
+       }
+       
+   // ----------
+   })();
+   
+   &lt;/script>
+   &lt;/body>
+&lt;/html>"></iframe>    

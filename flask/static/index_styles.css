@@ -4,14 +4,51 @@ body{
     margin: 0;
     padding: 0;
 }
-header{
+/* Basic header styling */
+header {
     background-color: #333;
     color: white;
-    padding: 10px 0;
-    text-align: center;
+    padding: 15px 0;
 }
+
+/* Center align nav and remove list styling */
+header nav ul {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+/* Style individual list items */
+header nav ul li {
+    margin: 0 15px; /* Adds spacing between links */
+}
+
+/* Link styling */
+header nav ul li a {
+    color: white;
+    text-decoration: none; /* Removes underline */
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s, border-bottom 0.3s; /* Smooth hover effect */
+    border-bottom: 2px solid transparent; /* Adds bottom border for hover effect */
+}
+
+/* Hover effect for links */
+header nav ul li a:hover {
+    color: #4CAF50; /* Change to a bright color on hover */
+    border-bottom: 2px solid #4CAF50; /* Adds underline effect on hover */
+}
+
+/* Optional: add a subtle shadow to the header */
+header {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
 main{
     margin: 20px;
+    padding-bottom: 60px; /* Adjust to match your footer's height */
 }
 footer{
     background-color: #333;
@@ -21,4 +58,34 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Removes the gaps between borders */
+    margin: 20px 0;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+table th, table td {
+    padding: 12px 15px; /* Adds padding for a more comfortable look */
+    text-align: left; /* Aligns text to the left */
+    border-bottom: 1px solid #ddd; /* Subtle row dividers */
+}
+
+table th {
+    background-color: #4CAF50; /* Adds a header background color */
+    color: #ffffff;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Adds alternating row colors */
+}
+
+table tr:hover {
+    background-color: #ddd; /* Adds hover effect on rows */
 }
